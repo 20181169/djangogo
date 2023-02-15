@@ -26,11 +26,11 @@ SECRET_KEY = "django-insecure-7$29iq(0-szecto+dz+_2xt=tc%oo+9%ficemw$a15*8=l!uyg
 #email
 DEBUG = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_PORT = '587'
-EMAIL_HOST = 'smtp.naver.com'
-EMAIL_HOST_USER = 'peter110998@naver.com'
-EMAIL_HOST_PASSWORD = 'Uwjm2401@'
-EMAIL_USE_TLS = 'True'
+EMAIL_PORT = 'f y'
+EMAIL_HOST = 'f y'
+EMAIL_HOST_USER = 'f y'
+EMAIL_HOST_PASSWORD = 'f y'
+EMAIL_USE_TLS = 'f y'
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 ALLOWED_HOSTS = ['*']
@@ -39,7 +39,7 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Application definition
-CSRF_TRUSTED_ORIGINS = ['https://d382-121-134-166-70.jp.ngrok.io']
+CSRF_TRUSTED_ORIGINS = ['f y']
 INSTALLED_APPS = [
     #"accounts.apps.AccountsConfig",
     'rest_framework',

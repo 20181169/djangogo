@@ -14,7 +14,7 @@
         {% for cat in category_list %}
        
             {% if cat ==  category %}
-           
+                                  
                 <a class="rounded-0 list-group-item list-group-item-action list-group-item-light active"
                    href="{{ cat.get_absolute_url }}">{{  cat.description }}</a>
                 
